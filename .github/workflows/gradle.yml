@@ -30,4 +30,4 @@ jobs:
         distribution: 'temurin'
     - name: Build with Gradle
       run: |
-        ./gradlew build
+        "GOFO Implementation/gradlew" build
