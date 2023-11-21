@@ -30,6 +30,4 @@ jobs:
         distribution: 'temurin'
     - name: Build with Gradle
       run: |
-        cd "GOFO Implementation"
-        ls -la "GOFO Implementation"
         ./gradlew build
