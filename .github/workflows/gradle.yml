@@ -28,6 +28,10 @@ jobs:
       with:
         java-version: '11'
         distribution: 'temurin'
+    
+    - name: Set file permissions
+      run: chmod +x "GOFO Implementation/gradlew"
+    
     - name: Build with Gradle
       run: |
         "GOFO Implementation/gradlew" build
