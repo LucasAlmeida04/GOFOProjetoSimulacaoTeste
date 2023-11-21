@@ -5,3 +5,9 @@ plugins {
 repositories {
     mavenCentral()
 }
+
+tasks.named('build') {
+    exec {
+        commandLine 'gradle', 'compile'
+    }
+}
