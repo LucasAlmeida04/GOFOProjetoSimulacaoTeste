@@ -36,3 +36,8 @@ jobs:
       run: |
         cd "GOFO Implementation"
         ./gradlew build
+
+    - name: Run unit tests
+      run: |
+        cd "GOFO Implementation"
+        ./gradlew test
