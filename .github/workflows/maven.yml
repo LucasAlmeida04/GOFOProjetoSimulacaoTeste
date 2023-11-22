@@ -40,14 +40,7 @@ jobs:
       uses: actions/setup-java@v2
       with:
         java-version: '17'
-
-    - name: Cache Maven packages
-      uses: actions/cache@v2
-      with:
-        path: ~/.m2/repository
-        key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
-        restore-keys: |
-          ${{ runner.os }}-maven-
-
+        distribution: 'temurin'
+        cache: maven
     - name: Run Unit Tests
       run: mvn test --file "GOFO Implementation/pom.xml"
