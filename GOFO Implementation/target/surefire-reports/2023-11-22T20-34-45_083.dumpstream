@@ -1,0 +1,4 @@
+# Created at 2023-11-22T20:34:45.999
+Boot Manifest-JAR contains absolute paths in classpath 'E:\FEI\8º Semestre\Simulação e teste\GOFOProjetoSimulacaoTeste\GOFO Implementation\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
