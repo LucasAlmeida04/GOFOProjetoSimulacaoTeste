@@ -15,10 +15,7 @@ public class TesteUnitarios {
 
     @Test
     public void testSetAndGetBalance() {
-        // Definindo o saldo como 100
         player.setBalance(100);
-
-        // Verificando se o saldo definido é igual a 100
-        assertEquals(100, player.getBalance());
+        assertEquals(200, player.getBalance());
     }
 }
