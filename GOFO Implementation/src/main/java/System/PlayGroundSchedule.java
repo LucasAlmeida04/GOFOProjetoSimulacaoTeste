@@ -9,7 +9,7 @@ import java.util.Scanner;
  */
 public class PlayGroundSchedule {
 String SlotsStatus;
-ArrayList<ArrayList<String>> schedule;
+public ArrayList<ArrayList<String>> schedule;
 int timeSlotPerHour;
 int begins;
 int ends;

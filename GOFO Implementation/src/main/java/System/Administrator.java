@@ -15,10 +15,10 @@ public class Administrator {
     String email, password;
     int choice;
     String choice2;
-    static ArrayList<Playground> Approved;//���Approved playgrounds
-    static ArrayList<Playground> Requested;//Requested playground to approve them
-    ArrayList<Playground> suspended;//suspended playgrounds
-    ArrayList<String> complaints;
+    public static ArrayList<Playground> Approved;//���Approved playgrounds
+    public static ArrayList<Playground> Requested;//Requested playground to approve them
+    public ArrayList<Playground> suspended;//suspended playgrounds
+    public ArrayList<String> complaints;
     SystemUI obj = new SystemUI();
 
     /**

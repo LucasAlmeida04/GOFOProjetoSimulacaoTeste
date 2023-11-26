@@ -16,7 +16,7 @@ public class userProfile {
     public int phone;
     public String location;
     public String rule;
-    eWallet service;
+    public eWallet service;
     Scanner sc = new Scanner(System.in);
     /**
      * setPayment Function
