@@ -43,4 +43,4 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Run Unit Tests
-      run: mvn test -Dsurefire.printSummary=true --file "GOFO Implementation/pom.xml"
+      run: mvn test --file "GOFO Implementation/pom.xml"
