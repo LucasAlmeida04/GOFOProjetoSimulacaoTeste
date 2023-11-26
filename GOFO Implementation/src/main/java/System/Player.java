@@ -16,9 +16,9 @@ public class Player extends userProfile {
 
     Scanner input = new Scanner(System.in);
     public ArrayList<ArrayList<String>> Bookedslots;
-    ArrayList<Player> team;
+    public ArrayList<Player> team;
     ArrayList<String> Inbox;
-    eWallet eWallet;
+    public eWallet eWallet;
     SystemUI obj = new SystemUI();
 
     public Player() {

@@ -17,7 +17,7 @@ import java.util.ArrayList;
 public class PlaygroundOwner extends userProfile {
 
     Scanner input = new Scanner(System.in);
-    ArrayList<Playground> listOfPlayground;
+    public ArrayList<Playground> listOfPlayground;
     eWallet eWallet;
     ArrayList<String> recieveMsg;
 
