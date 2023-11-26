@@ -15,7 +15,7 @@ import java.util.Scanner;
 public class Player extends userProfile {
 
     Scanner input = new Scanner(System.in);
-    ArrayList<ArrayList<String>> Bookedslots;
+    public ArrayList<ArrayList<String>> Bookedslots;
     ArrayList<Player> team;
     ArrayList<String> Inbox;
     eWallet eWallet;
